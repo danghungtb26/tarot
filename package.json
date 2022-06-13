@@ -10,20 +10,35 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@rn-base/element": "^1.0.0",
+    "@rn-base/native": "^1.0.1",
     "react": "17.0.2",
-    "react-native": "0.68.2"
+    "react-native": "0.68.2",
+    "react-native-fast-image": "^8.5.11",
+    "react-native-gesture-handler": "^2.4.2",
+    "react-native-reanimated": "^2.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.12.9",
     "@babel/runtime": "^7.12.5",
     "@react-native-community/eslint-config": "^2.0.0",
+    "@rn-base/eslint-config": "^1.0.0-alpha.1",
+    "@rn-base/script": "^1.0.0",
+    "@types/react": "17.0.41",
+    "@types/react-native": "0.67.3",
     "babel-jest": "^26.6.3",
-    "eslint": "^7.32.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^8.16.0",
     "jest": "^26.6.3",
     "metro-react-native-babel-preset": "^0.67.0",
-    "react-test-renderer": "17.0.2"
+    "prettier": "^2.6.2",
+    "react-test-renderer": "17.0.2",
+    "typescript": "^4.7.2"
   },
   "jest": {
     "preset": "react-native"
+  },
+  "resolutions": {
+    "@types/react": "17.0.41"
   }
 }

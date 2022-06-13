@@ -1,0 +1,7 @@
+{
+    "extends": ["@rn-base"],
+    "rules": {
+        "import/no-extraneous-dependencies": ["error", {"packageDir": ["."]}],
+        "global-require": 0
+    }
+}
